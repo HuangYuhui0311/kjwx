@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+html{ font-size:100px; }
+body{ margin:0; background:#eeeaea; font-size:12px; }
+h1,h3,h4,ul,li,p{ margin:0; padding:0; }
+ul{ list-style:none; }
+a{ text-decoration:none; }
+img{ vertical-align:middle; }
+
+.clearfloat{ *zoom:1; }
+.clearfloat:after{ content:""; display:block; clear:both; }
+.flexDiv{  display:-moz-box;display:-o-box;display:-webkit-box; }
+.common_border{ border-bottom:1px solid #ccc;}
+
+.wrap{ width:100%; max-width:720px; min-width:320px; margin:0 auto; }
+header{ height:0.88rem; background:#f8f8f8; -webkit-box-align:center; padding:0 0.15rem; }
+header h1{ font-size:0.32rem; line-height:0.88rem; font-weight:normal; color:#666; text-align:center; -webkit-box-flex:1; background:#f8f8f8; }
+header .user{ background:url(../image/pic03.jpg) no-repeat center center; width:0.33rem; height:0.88rem; background-size:100% auto; }
+header .tool{ width:1rem; height:0.36rem; }
+header span.search{ float:left; background:url(../image/pic06.jpg) no-repeat center center; background-size:100% auto; width:0.36rem; height:0.37rem; }
+header span.list{ float:right; background:url(../image/pic09.jpg) no-repeat center center; background-size:100% auto; width:0.36rem; height:0.36rem; }
+
+.banner{width:100%;}
+.banner img{ width:100%; }
+
+nav{ background:#fff; padding:0 0.166%; }
+nav ul{ padding:0.26rem 0 0.28rem; }
+nav li{ float:left; width:25%; text-align:center; padding-top:0.16rem; }
+nav li a{ font-size:0.24rem; color:#888; line-height:0.5rem; }
+
+h3{ font-size:0.28rem; line-height:0.8rem; height:0.8rem; color:#40a3f8; background:#f8f8f8; font-weight:normal; margin-top:0.1rem; padding-left:0.32rem; }
+
+.Course {  /*height:3.11rem;*/ background:#fff; padding:0.11rem 0 0.18rem 0.32rem ;}
+.Course li{ float:left; width:2.78rem; margin-right:0.2rem; padding-top:0.15rem; }
+.Course li img{ width:100%; margin-bottom:0.14rem; }
+.Course li p{ padding:0 0.06rem; }
+.Course li span{ font-size:0.22rem; line-height:0.44rem;color:#999; padding-left:0.22rem; }
+/*.Course li span.price{  color:#ff6600; padding:0; }
+*/.Course li p a{ font-size:0.28rem; line-height:0.42rem; color:#333; overflow:hidden;display:block; }
+
+.two_line li p a{ max-height:0.84rem;text-overflow:ellipsis; }
+.one_line li p a{ max-height:0.42rem; white-space:nowrap; text-overflow:ellipsis; }
+.one_line img{ width:3.18rem; height:1.78rem; }
+
+li span.price{  color:#ff6600; padding:0; }
+li span.free{ color:#18b160; padding:0; }
+
+.account li,.account_job li,.account_CPA li{ width:3.2rem; }
+
+.attentUs{ position:relative;  height:2.19rem; background:#fff; padding:0.68rem 0.32rem 0.24rem; margin-top:0.12rem; }
+.attentUs ul{ width:5.12rem; border-top:0.01rem solid #ccc; padding:0 0.72rem; }
+.attentUs li{ float:left; width:33.33%; text-align:center; padding:0.47rem 0; }
+.attentUs li img{ /*width:73.98%;*/ width:1.25rem; }
+.attentUs h4{ position:absolute; top:0.5rem;/* left:50%; margin-left:-1.19rem; */left:2.72rem; width:1.74rem; font-size:0.34rem; line-height:0.38rem; height:0.38rem; background:#fff; font-weight:normal; text-align:center; color:#333; }
+
+.devices ul{ padding:0.3rem; }
+.devices li{ float:left; width:0.72rem; padding:0 0.72rem; text-align:center; vertical-align:bottom;}
+.devices li a{ font-size:0.24rem; color:#999; line-height:0.5rem; }
+.devices li.on a,.devices li a:hover{ color:#333; }
+.devices li:hover{ border-width:0 0.01rem; border-style:solid; border-color:#ccc; }
+.devices li img{ width:0.72rem; height:0.48rem; }
+address{ font-size:0.16rem; line-height:0.3rem; color:#999; text-align:center; font-style:normal; padding-bottom:0.13rem; }
+
+.ad img{ width:100%; }
